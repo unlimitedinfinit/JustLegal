@@ -1,7 +1,8 @@
 // Import necessary modules
 import React from 'react';
 import { View, Text } from 'react-native';
-import styles from '../styles'; // Import styles from styles.js
+import styles, { GRADIENT_COLORS } from '../styles'; // Import styles from styles.js
+import Loading from './spin'; // 
 
 // Define the AboutUs component
 export default function AboutUs() {
